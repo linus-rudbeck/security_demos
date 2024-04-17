@@ -6,8 +6,9 @@ import software.amazon.awssdk.services.iam.IamClient;
 import software.amazon.awssdk.services.iam.model.*;
 import software.amazon.awssdk.services.iam.waiters.IamWaiter;
 
-public class Main {
+public class IamDemo {
     public static void main(String[] args) {
+
         IamClient iam = IamClient.builder()
                 .region(Region.AWS_GLOBAL)
                 .build();
